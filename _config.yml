@@ -1,11 +1,11 @@
 title: "Aldo Kelvianto"
-description: "Android Developer from jakarta, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-about: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-location: "Your Region, Country"
-email: your-email@example.com
+description: "Aldo Kelvianto Personal Page"
+about: "Hi there, I'm yet another Android developer"
+location: "Your Region, Indonesia"
+email: aldokelvianto@yahoo.com
 baseurl: ""
 
-url: "https://aldoapps.com" # replace by your site's url
+url: "http://aldoapps.com" # replace by your site's url
 twitter_username: aldokelvianto 
 github_username:  aldokelvianto
 author: "Aldo Kelvianto"
