@@ -1,36 +1,60 @@
-# Permalinks
-permalink:           pretty
+title: "Aldo Kelvianto"
+description: "Android Developer from jakarta, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+about: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+location: "Your Region, Country"
+email: your-email@example.com
+baseurl: ""
 
-# Setup
-title:               Aldo Kelvianto
-tagline:             Android Developer from Jakarta.
-url:                 https://aldoapps.com
-paginate:            1
-baseurl:             ""
+url: "https://aldoapps.com" # replace by your site's url
+twitter_username: aldokelvianto 
+github_username:  aldokelvianto
+author: "Aldo Kelvianto"
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# google analytics tracking code, please change the value
+g_analytics: ""
 
-# About/contact
-author:
-  name:              Aldo Kelvianto
-  url:               https://twitter.com/aldokelvianto
-  email:             aldokelvianto@yahoo.com
+# add your disqus to enable comments
+disqus_shortname:
 
-# Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/aldokelvianto/aldokelvianto.github.io
-google_analytics:    UA-3363703-15
-twitter:             aldokelvianto
-github:              aldokelvianto
-dribbble:            aldokelvianto
+# language settings
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "Projects"
+posts_btn: "Posts"
+imprint_btn: "Imprint"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
 
-# Gems
+# build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    tab_width: 4
+
+# third party gems
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
