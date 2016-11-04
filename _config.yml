@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Aldo Kelvianto
 tagline:             Android Developer from Jakarta.
-url:                 https://aldokelvianto.github.io
+url:                 https://aldoapps.com
 paginate:            1
-baseurl:             https://github.com/aldoKelvianto/aldokelvianto.github.io
+baseurl:             ""
 
 # Assets
 #
